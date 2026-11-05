@@ -1,0 +1,47 @@
+body {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  
+  /* НОВЫЕ СВОЙСТВА ДЛЯ ЦЕНТРИРОВАНИЯ */
+  display: flex;
+  flex-direction: column;  /* Ставим элементы друг под другом (в колонку) */
+  align-items: center;     /* Выравниваем по центру горизонтально */
+  justify-content: center; /* Выравниваем по центру вертикально */
+  min-height: 100vh;       /* Высота минимум на весь экран (vh = viewport height) */
+  margin: 0;               /* Убираем стандартные отступы браузера */
+  text-align: center;      /* Центрируем текст внутри параграфов */
+}
+
+h1 {
+  color: #00FF00; /* Зеленый цвет заголовка */
+  text-align: center; /* Выравнивание по центру */
+}
+
+button {
+  background-color: #5865F2; /* Синий цвет Discord */
+  color: white;
+  padding: 10px 20px;        /* Отступы внутри кнопки (сверху/снизу, слева/справа) */
+  border: none;              /* Убрать рамку */
+  border-radius: 5px;        /* Скруглить углы */
+  cursor: pointer;           /* Курсор в виде руки при наведении */
+}
+
+button:hover {
+  background-color: #4752c4; /* Делаем цвет чуть темнее */
+  transform: scale(1.05);    /* Увеличиваем кнопку на 5% */
+  transition: 0.2s;          /* Делаем изменение плавным (за 0.2 секунды) */
+}
+
+img {
+    width: 300px;
+    border-radius: 15px;
+    margin-top: 20px;    /* Отступ сверху */
+    margin-bottom: 20px; /* Отступ снизу */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* Тень как у карточки (необязательно, но красиво) */
+}
+
+p {
+    font-size: 18px;
+    margin-top: 20px;
+}
